@@ -1,0 +1,232 @@
+body{
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	font-size: 15px;
+
+	line-height: 1.5;
+
+    color: #333;
+}
+
+*,
+*after,
+*before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 700px;
+
+	margin: 0 auto;
+}
+
+/* Back */
+.back{
+    position: absolute;
+
+    width: 75px;
+    height: 75px;
+
+    margin: 20px 50px;
+
+    background: url("../images/arrow/arrow_black.png") no-repeat center;
+    background-size: cover;
+}
+
+/* Register */
+.register{
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/register/background.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Content */
+.content{
+    width: 100%;
+    height: 100%;
+
+    padding-top: 50px;
+}
+
+/* Block */
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 650px;
+
+    border: 4px solid #333;
+    border-radius: 10px;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 150px;
+
+    border-bottom: 4px solid #333;
+
+    font-size: 35px;
+}
+
+/* List */
+.list{
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+/* Radio */
+.radio{
+    display: none;
+}
+
+/* T and S blocks */
+.teacher_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-right: 4px solid #333;
+
+    width: 50%;
+    height: 100%;
+}
+
+.student_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 50%;
+}
+
+/* Condition */
+.condition{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+}
+
+.student_cond{
+    width: 30px;
+    height: 30px;
+
+    background: url("../images/LR/cond_white.png") no-repeat center;
+    background-size: cover;
+
+    margin-left: 10px;
+    margin-top: 10px;
+
+    border: 3px solid #333;
+    border-radius: 50%;
+}
+
+.teacher_cond{
+    width: 30px;
+    height: 30px;
+
+    background: url("../images/LR/cond_white.png") no-repeat center;
+    background-size: cover;
+
+    margin-left: 10px;
+    margin-top: 10px;
+
+    border: 3px solid #333;
+    border-radius: 50%;
+}
+
+/* Checked */
+#teacher_radio:checked + label .teacher_cond{
+    background: url("../images/LR/cond_green.png") no-repeat center;
+    background-size: cover;
+}
+
+#teacher_radio:checked + label .teacher_img{
+    transform: scale(1.1);
+}
+
+#student_radio:checked + label .student_cond{
+    background: url("../images/LR/cond_green.png") no-repeat center;
+    background-size: cover;
+}
+
+#student_radio:checked + label .student_img{
+    transform: scale(1.1);
+}
+
+/* T and S img */
+.teacher_img{
+    width: 250px;
+    height: 250px;
+
+    background: url("../images/LR/teacher.png") no-repeat center;
+    background-size: cover;
+
+    transition: ease 0.2s;
+    
+    border: 4px solid #333;
+    border-radius: 50%;
+}
+
+.student_img{
+    width: 250px;
+    height: 250px;
+
+    background: url("../images/LR/student.png") no-repeat center;
+    background-size: cover;
+    
+    transition: ease 0.2s;
+
+    border: 4px solid #333;
+    border-radius: 50%;
+}
+
+/* T and S text */
+.text{
+    margin-bottom: 60px;
+
+    font-size: 32px;
+}
+
+/* Continue */
+.continue{
+
+}
+
+.continue_btn{
+    height: 100px;
+    width: 100%;
+
+    border: none;
+    border-top: 4px solid #333;
+    border-radius: 0 0 5px 5px;
+
+    font-size: 32px;
+
+    transition: color 0.2s;
+}
+
+.continue_btn:hover{
+    background: #333;
+    color: #fff;
+}
