@@ -8,6 +8,7 @@
     <title>Student registration</title>
 </head>
 <body>
+    <a href="register.php" class="back"></a>
     <section class="register">
         <div class="container">
             <div class="row">

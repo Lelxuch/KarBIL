@@ -8,6 +8,7 @@
     <title>Registration</title>
 </head>
 <body>
+    <a href="login.php" class="back"></a>
     <section class="register">
         <div class="container">
             <div class="row">

@@ -33,6 +33,20 @@ select{
     border: 3px solid #333;
 }
 
+/* Back */
+.back{
+    position: absolute;
+
+    width: 80px;
+    height: 70px;
+
+    background: url("../images/arrow/arrow_black.png") no-repeat center;
+    background-size: cover;
+
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
 /* Register */
 .register{
     width: 100%;
@@ -179,6 +193,10 @@ select{
     flex-direction: column;
 }
 
+.name_inputs_label label{
+    margin-top: 8px;
+}
+
 .name_input_inputs{
     display: flex;
     flex-direction: column;
@@ -202,17 +220,13 @@ select{
 
 .date_title{
     font-size: 24px;
-}
 
-.date_item{
-    padding-left: 20px;
-    padding-top: 4px;
+    margin-right: 10px;
 }
 
 /* Gender */
 .gender{
     padding-top: 25px;
-    padding-bottom: 15px;
 }
 
 .gender_title{
@@ -419,6 +433,11 @@ input[type=number] {
     flex-direction: column;
 }
 
+.password_input_label label{
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
 .password_input_inputs{
     display: flex;
     flex-direction: column;
@@ -427,7 +446,6 @@ input[type=number] {
 
 .password_input input{
     margin-top: 6px;
-    margin-left: 5px;
 
     width: 250px;
 }
