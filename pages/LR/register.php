@@ -48,10 +48,10 @@
     <script>
         function start_registration() {
             if(document.getElementById('teacher_radio').checked) {
-                window.location.replace("teacher.php");
+                window.location.replace("register_teacher.php");
             }
             else if(document.getElementById('student_radio').checked) {
-                window.location.replace("student.php");
+                window.location.replace("register_student.php");
             }
         }
     </script>

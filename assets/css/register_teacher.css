@@ -45,6 +45,9 @@ select{
 
 /* Content */
 .content{
+    display: flex;
+    justify-content: center;
+
     width: 100%;
     height: 100%;
 
@@ -58,11 +61,11 @@ select{
     flex-direction: column;
     justify-content: space-between;
 
-    width: 100%;
+    width: 800px;
     height: 100%;
 
-    background: #504f93;
-	border: 3px solid #4dc2cb;	
+    border: 4px solid #333;	
+    border-radius: 10px;
 }
 
 /* Header */
@@ -74,11 +77,10 @@ select{
     width: 100%;
     height: 100px;
 
-    background: #503582;
-    border-bottom: 2px solid #4dc2cb;
+    border-bottom: 4px solid #333;
 
     font-size: 35px;
-    color: #6cdbe4;
+    color: #333;
 }
 
 .list{
@@ -117,9 +119,24 @@ select{
     font-size: 30px;
     font-weight: 700;
 
-    color: #6cdbe4;
+    color: #333;
 }
 
+.sub_num{
+    transform: translate(-37px);
+    
+    border: 4px solid #333;
+    border-radius: 50%;
+
+    padding: 4px 20px;
+
+    z-index: 10;
+
+    background: #fff;
+
+    font-size: 35px;
+    font-weight: 700;
+}
 
 /* Data inputs */
 .data{
@@ -172,7 +189,7 @@ select{
 
 .name_input_inputs input{
     margin-top: 8px;
-    width: 200px;
+    width: 250px;
 }
 
 /* Date */
@@ -308,7 +325,7 @@ select{
 }
 
 .email_item input{
-    width: 200px;
+    width: 250px;
 }
 
 /* Phone */
@@ -351,7 +368,7 @@ input[type=number] {
 }
 
 .login_hint{
-    color: #ababab;
+    color: #666;
     font-size: 18px;
     font-style: italic;
 
@@ -367,7 +384,7 @@ input[type=number] {
 
 .login_item input{
     margin-left: 5px;
-    width: 150px;
+    width: 250px;
 }
 
 /* Password */
@@ -385,7 +402,7 @@ input[type=number] {
 }
 
 .password_hint{
-    color: #ababab;
+    color: #666;
     font-size: 18px;
     font-style: italic;
 
@@ -412,7 +429,7 @@ input[type=number] {
     margin-top: 6px;
     margin-left: 5px;
 
-    width: 170px;
+    width: 250px;
 }
 
 /* Register btn */
@@ -421,11 +438,10 @@ input[type=number] {
     width: 100%;
 
     border:none;
-    border-top: 2px solid #4dc2cb;
+    border-top: 4px solid #333;
+    border-radius: 0 0 5px 5px;
 
-    background: #504f93;
-
-    color: #6cdbe4;
+    color: #333;
     font-size: 32px;
 
     transition: color 0.2s;
@@ -434,5 +450,6 @@ input[type=number] {
 }
 
 .reg_btn:hover{
-    background: #505a9d;
+    background: #333;
+    color: #fff;
 }
