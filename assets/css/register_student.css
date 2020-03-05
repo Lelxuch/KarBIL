@@ -1,0 +1,363 @@
+body{
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	font-size: 15px;
+
+	line-height: 1.5;
+
+    color: #333;
+}
+
+*,
+*after,
+*before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+input{
+    padding-left: 5px;
+    
+    font-size: 20px;
+
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+select{
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+/* Register */
+.register{
+    width: 100%;
+    height: 100%;
+
+    background: url("../images/register/background.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Content */
+.content{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* Block */
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 800px;
+    height: 100%;
+
+    border: 4px solid #333;	
+    border-radius: 10px;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+
+    border-bottom: 4px solid #333;
+
+    font-size: 38px;
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	height: 100%;
+}
+
+/* Subtitle */
+.subtitle{
+	display: flex;	
+	align-items: center;
+
+	width: 100%;
+
+	margin-top: 30px;
+}
+
+.sub_num{
+    transform: translate(-37px);
+    
+    border: 4px solid #333;
+    border-radius: 50%;
+
+    padding: 4px 20px;
+
+    z-index: 10;
+
+    background: #fff;
+
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sub_text{
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+
+	padding-right: 25px;
+
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* Data inputs */
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+/* Name */
+.name_title{
+    font-size: 28px;
+    
+    padding-bottom: 10px;
+}
+
+.name_item{
+    padding-left: 40px;
+}
+
+/* Name inputs */
+.name_input{
+    display: flex;
+
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.name_inputs_label{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 26px;
+
+    margin-top: 4px;
+}
+
+.name_input_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 10px;
+}
+
+.name_input_inputs input{
+    margin-top: 8px;
+    width: 250px;
+}
+
+/* Date */
+.date_b{
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.date_title{
+    font-size: 28px;
+
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+/* Education */
+.edu_title{
+	font-size: 26px;
+}
+
+/* For all */
+.sel_edu{
+	font-size: 20px;
+
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+/* Class */
+.sel_edu_class{
+    font-size: 20px;
+
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+.sel_edu_class input{
+    border: 3px solid #333;
+
+    margin-right: 5px;
+}
+
+.sel_edu_class label{
+    margin-right: 15px;
+}
+
+/* Security */
+/* email */
+.email_title{
+    font-size: 24px;
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.email_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.email_item input{
+    width: 350px;
+}
+
+/* Phone */
+.phone_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.phone_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.phone_item input{
+    margin-left: 5px;
+}
+
+/* Login */
+.login_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.login_hint{
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.login_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.login_item input{
+    margin-left: 5px;
+    width: 250px;
+}
+
+/* Password */
+.password_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.password_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.password_hint{
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+
+    margin-left: 5px;
+    margin-bottom: 1px;
+}   
+
+.password_input{
+    display: flex;
+}
+
+.password_input_label{
+    display: flex;
+    flex-direction: column;
+}
+
+.password_input_label label{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.password_input_inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.password_input_inputs input{
+    margin-top: 6px;
+    margin-left: 5px;
+
+    width: 250px;
+}
+
+/* Register btn */
+.reg_btn{
+    height: 80px;
+    width: 100%;
+
+    border:none;
+    border-top: 4px solid #333;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+
+    font-size: 32px;
+
+    transition: color 0.2s;
+
+    margin-top: 100px;
+}
+
+.reg_btn:hover{
+    background: #333;
+    color: #fff;
+}

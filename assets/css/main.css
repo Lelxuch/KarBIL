@@ -76,8 +76,27 @@ h1, h2, h3, h4, h5, h6{
     color: #333;
 }
 
+.nav_link:after{
+    display: block;
+    
+    content: "";
+    background: #333;
+
+    margin: 0 auto;
+    height: 3px;
+    width: 0%;
+
+    transition: width 0.2s ease-out;
+}
+
 .nav_link:hover{
     color: #333;
+    text-decoration: none;
+}
+
+.nav_link:hover:after,
+.nav_link:focus:after{
+    width: 100%;
 }
 
 .submenu{
