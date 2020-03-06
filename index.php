@@ -161,7 +161,9 @@
         var intro_title_1 = document.getElementById('intro_title_1');
         var intro_title_2 = document.getElementById('intro_title_2');
         function first(){
-            intro_title_1.style.opacity = "1";
+            setTimeout( function(){
+                intro_title_1.style.opacity = "1";
+            }, 300 );
         }
         function second(){
             setTimeout( function(){
